@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: todo-next-app
-    image: piyush1008/todo-app-next:2edfe2a19b98857d71857f2a025e1539b34625d2
+    image: piyush1008/todo-app-next:db4f05f6db1aa2949bb918f154019459770e7877
     ports:
     - containerPort: 3000
