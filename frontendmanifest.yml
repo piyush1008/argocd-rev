@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: todo-next
+spec:
+  containers:
+  - name: todo-next-app
+    image: piyush1008/todo-app-next:2edfe2a19b98857d71857f2a025e1539b34625d2
+    ports:
+    - containerPort: 3000
